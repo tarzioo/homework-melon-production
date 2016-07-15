@@ -39,6 +39,13 @@ class Melon(object):
 
 # FIXME: Add Squash class definition here.
 
+class Squash(Melon):
+    """Squash class"""
+
+    def prep(self):
+        super(Squash, self).prep()
+        return
+
 
 def show_help():
 
